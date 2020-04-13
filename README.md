@@ -87,6 +87,7 @@ FinalData <- TidyData %>% group_by(subject, activity) %>% summarise_all(funs(mea
 write.table(FinalData, "FinalData.txt", row.name=FALSE)
 ----------------------------------------------------------------------------------------------------------------------------------------
 Code Book
+
 The run_analysis.R script performs the data preparation and then followed by the 5 steps required as described in the course project’s definition.
 
 Download the dataset
